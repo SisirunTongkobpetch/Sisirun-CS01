@@ -1,3 +1,3 @@
-A=int(input("A="))
+A=int(input())
 for i in range(100):
-    print(i+10)
+    print(A+i)
