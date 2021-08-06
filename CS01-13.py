@@ -1,8 +1,8 @@
-arr=[]
+i=[]
 while (True):
     i=int(input("enter ur grade"))
     if i== -1 : 
        break
-    arr += [i]
+    i = [i+1]
     print("ur grade is",i)
-print(arr)
+print(i)
