@@ -4,7 +4,7 @@ print('Enter Your Data:')
 for i in range(Num):
     data = int(input(''))
     NumTotal += [data]
-print(Numtotal,end='')
+print(list,end='')
 NumTotal.sort()
 print("---> ",end='')
 print(NumTotal)
