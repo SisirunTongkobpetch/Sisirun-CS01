@@ -94,8 +94,8 @@ if __name__ == "__main__":
 				command=lambda: press("-"), height=3, width=7)
 	minus.grid(row=3, column=3)
 
-	multiply = Button(gui, text=' x ', fg='black', bg='pink',
-					command=lambda: press("x"), height=3, width=7)
+	multiply = Button(gui, text=' * ', fg='black', bg='pink',
+					command=lambda: press("*"), height=3, width=7)
 	multiply.grid(row=4, column=3)
 
 	divide = Button(gui, text=' / ', fg='black', bg='pink',
