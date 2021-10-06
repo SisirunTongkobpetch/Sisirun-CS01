@@ -1,8 +1,7 @@
-arr=[]
-while (True):
-    i=int(input("enter ur grade"))
-    if i== -1 : 
-       break
-    arr += [i]
-    print("ur grade is",i)
-print(arr)
+x=str(input("enter your first name: "))
+y=str(input("enter your last name: "))
+z=int(input("enter your student number: "))
+Name=[x,y,z]
+for a in Name:
+    print(a) 
+    
